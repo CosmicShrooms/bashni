@@ -1,0 +1,24 @@
+{
+  "name": "bashni",
+  "productName": "Bashni",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "electron .",
+    "dist": "npm run build && electron-builder --dir"
+  },
+  "keywords": [],
+  "author": "Alexander Mathson <dynamicalsystemsandchaos@gmail.com>",
+  "license": "MIT",
+  "description": "An elegant app to play and study the game of Bashni originating from my hometown",
+  "dependencies": { 
+    "preact": "^10.28.1"
+  },
+  "devDependencies": {
+    "electron": "^39.2.7",
+    "electron-builder": "^26.0.12",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
