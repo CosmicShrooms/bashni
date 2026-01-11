@@ -1,0 +1,19 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, var(--square-size));
+  gap: 0;
+  position: relative;
+}
+
+.square {
+  width: var(--square-size);
+  height: var(--square-size);
+}
+
+.square.light {
+  background-color: #F0D9B1;
+}
+
+.square.dark {
+  background-color: #B58863;
+}
